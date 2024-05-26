@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="action.js">
+        <input type="text" name="fname" placeholder="Enter Your First Name"> <br/>
+        <input type="text" name="lname" placeholder="Enter Your Last Name"> <br/>
+        <input type="email" name="email" placeholder="Enter Your Email"> <br/>
+        <input type="password" name="password" placeholder="Enter Your password"> <br/>
+        <input type="date" name="dob" placeholder="Enter Your Date of Birth"> <br/>
+        <input type="number" name="age" placeholder="Enter Your Age"> <br/>
+        <input type="file" name="resume"> <br/>
+        <label for="label1">
+            <input type="radio" value="class XI" name="class" id="label1">XI class <br/>
+        </label>
+        <label for="label2">
+            <input type="radio" value="class XII" name="class" id="label2">XII class <br/>
+        </label>
+        <label for="eng">
+            <input type="checkbox" value="eng" name="subject" id="101">English
+        </label>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="102">Math <br/>
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="103">Physics
+        </label>
+        <label for="chm">
+            <input type="checkbox" value="chm" name="subject" id="104">Chemistry <br/>
+        </label>
+        <label for="feedback">
+            <textarea name="feedback" id="feedback" rows="5" placeholder="Enter Your Feedback"></textarea> <br/>
+        </label> <br/>
+        <select name="city">
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="multan">Multan</option>
+            <option value="peshawar">Peshawar</option>
+            <option value="quetta">Quetta</option>
+            <option value="sialkot">Sialkot</option>
+            <option value="sukkur">Sukkur</option>
+            <option value="swat">Swat</option>
+            <option value="bahawalpur">Bahawalpur</option>
+            <option value="rawalpindi">Rawalpindi</option>
+            <option value="faisalabad">Faisalabad</option>
+        </select> <br/>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
